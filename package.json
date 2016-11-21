@@ -4,6 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "build-client": "webpack --config config/webpack.client.config.js",
+    "build-client-watch": "webpack-dev-server --config config/webpack.client.config.js",
     "start": ""
   },
   "repository": {
@@ -15,5 +17,20 @@
   "bugs": {
     "url": "https://github.com/zen-experiments/webpack-exp-1/issues"
   },
-  "homepage": "https://github.com/zen-experiments/webpack-exp-1#readme"
+  "homepage": "https://github.com/zen-experiments/webpack-exp-1#readme",
+  "dependencies": {
+    "react": "^15.4.0",
+    "react-dom": "^15.4.0",
+    "react-router": "^4.0.0-alpha.5"
+  },
+  "devDependencies": {
+    "babel-core": "^6.18.2",
+    "babel-loader": "^6.2.8",
+    "babel-preset-es2015": "^6.18.0",
+    "babel-preset-react": "^6.16.0",
+    "html-webpack-plugin": "^2.24.1",
+    "npm-run-all": "^3.1.1",
+    "webpack": "^2.1.0-beta.27",
+    "webpack-dev-server": "^2.1.0-beta.11"
+  }
 }
