@@ -1,0 +1,19 @@
+{
+  "name": "webpack-exp-1",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": ""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zen-experiments/webpack-exp-1.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zen-experiments/webpack-exp-1/issues"
+  },
+  "homepage": "https://github.com/zen-experiments/webpack-exp-1#readme"
+}
